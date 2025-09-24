@@ -13,7 +13,7 @@ def main():
     
     st.markdown("""
     <div style='background-color: #f0f2f6; padding: 20px; border-radius: 10px;'>
-        <h3 style='color: #1f77b4;'>Welcome to the Loan Status Prediction App!</h3>
+        <h3 style='color: #1f77b4;'>Welcome to the Loan Approval Prediction App!</h3>
         <p style='font-size: 16px; color: #333;'>
             This app uses a machine learning model to predict whether your loan application is likely to be <strong>approved</strong> or <strong>rejected</strong>. 
             Simply input your financial details, such as income, credit score, and loan amount, and let our model analyze the data to provide an instant prediction.
@@ -91,5 +91,6 @@ def make_prediction(features):
 
 if __name__ == '__main__':
     main()
+
 
 
