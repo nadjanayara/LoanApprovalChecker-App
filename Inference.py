@@ -10,14 +10,6 @@ default_encoder = joblib.load("previous_loan_defaults_on_file_encoder.pkl")
 def main():
     st.set_page_config(page_title="Loan Status Prediction App", page_icon="💸", layout="centered")
     st.title("Loan Status Prediction App")
-
-    st.markdown("""
-    <div style='text-align: center; margin-bottom: 20px;'>
-        <p style='font-size: 18px; color: #555; font-weight: bold;'>Nadja Nayara Krisna</p>
-        <p style='font-size: 16px; color: #555;'>NIM: 2702320425 | Class: LB09</p>
-        <p style='font-size: 16px; color: #555;'>Model Deployment Midterms (3A)</p>
-    </div>
-    """, unsafe_allow_html=True)
     
     st.markdown("""
     <div style='background-color: #f0f2f6; padding: 20px; border-radius: 10px;'>
@@ -99,3 +91,4 @@ def make_prediction(features):
 
 if __name__ == '__main__':
     main()
+
