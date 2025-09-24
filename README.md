@@ -1,1 +1,1 @@
-# LoanApprovalChecker-App
+# loan-aprroval-checker-app
