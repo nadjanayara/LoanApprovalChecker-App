@@ -8,8 +8,8 @@ gender_encoder = joblib.load("person_gender_encoder.pkl")
 default_encoder = joblib.load("previous_loan_defaults_on_file_encoder.pkl")
 
 def main():
-    st.set_page_config(page_title="Loan Status Prediction App", page_icon="💸", layout="centered")
-    st.title("Loan Status Prediction App")
+    st.set_page_config(page_title="Loan Approval Prediction App", page_icon="💸", layout="centered")
+    st.title("Loan Approval Prediction App")
     
     st.markdown("""
     <div style='background-color: #f0f2f6; padding: 20px; border-radius: 10px;'>
@@ -91,4 +91,5 @@ def make_prediction(features):
 
 if __name__ == '__main__':
     main()
+
 
